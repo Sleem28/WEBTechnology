@@ -1,0 +1,44 @@
+img {
+    width: 530px;
+}
+
+h1{
+    padding-left: 60px;
+    color: blueviolet;
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+a{
+    color: darkslategrey;
+}
+
+.one {
+    color: red;
+}
+
+.two {
+    color: orange;
+}
+
+.three {
+    color: darkcyan;
+}
+
+.four {
+    color: green;
+}
+p{
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+
+
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: url('fonts/caviar_dreams.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/caviar_dreams.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/caviar_dreams.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/caviar_dreams.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/caviar_dreams.svg#caviar_dreams') format('svg'); /* Chrome < 4, Legacy iOS */
+}
